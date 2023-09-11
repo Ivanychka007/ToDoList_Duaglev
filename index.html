@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="todolist">
+        <div class="todolist__input">
+            <input class="todolist__text" type="text">
+            <button class="todolist__button" data-todolist-action="add">Добавить</button>
+        </div>
+        <div class="todolist__edit">
+            <button class="todolist__button" data-todolist-action="even">Выделить чётный элемент</button>
+            <button class="todolist__button" data-todolist-action="odd">Выделить нечётный элемент</button>
+            <button class="todolist__button" data-todolist-action="delfirst">Удалить первый эелемент</button>
+            <button class="todolist__button" data-todolist-action="delend">Удалить последний эелемент</button>
+        </div>
+        <ul class="todolist__items" data-todolist-option="active"></ul>
+    </div>
+
+</body>
+
+</html>

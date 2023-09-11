@@ -1,0 +1,72 @@
+.todolist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 15px auto;
+}
+
+.todolist__input {
+  position: relative;
+}
+.todolist__edit {
+  margin: 15px auto;
+}
+.todolist__text {
+  width: 225px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  outline: none;
+}
+
+.todolist__button {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin: 5px;
+  background-color: #87ce3c;
+}
+
+.todolist__button:hover {
+  background-color: #689f38;
+}
+
+.todolist__items {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+}
+
+.todolist__item {
+  position: relative;
+  padding: 10px 15px;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.todolist__action {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+}
+.todolist__action_delete {
+  right: 60px;
+  background-color: #e57373;
+}
+.todolist__action_complete {
+  right: 20px;
+  background-color: #66bb6a;
+}
+.clicked {
+  text-decoration: line-through;
+  font-weight: bold;
+}
+.even {
+  background-color: #8df053;
+}
+.odd {
+  background-color: #e57373;
+}
