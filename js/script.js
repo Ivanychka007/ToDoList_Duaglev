@@ -70,6 +70,7 @@ const todolist = {
             items[items.length - 1].remove();
           }
           break;
+        //Добаление элемента
         case "add":
           this.add();
           break;
